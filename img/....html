@@ -1,0 +1,11 @@
+
+
+
+
+<input type="button" name="decrease" value="-" /><input type="text" name="htop" value="0" id="htop"/>
+<input type="button" name="increase" value="+" onclick="increaseBtnOnclick()"/>
+<script>
+function increaseBtnOnclick() {
+    document.getElementById("htop").value = Number(document.getElementById("htop").value) + 1;
+}
+</script>

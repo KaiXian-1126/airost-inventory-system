@@ -1,0 +1,42 @@
+div.refLink h2{
+    font-size: 28px;
+    text-align: center;
+}
+div.refLink a, div.refLink p{
+    padding-left: 10px;
+    display: inline;
+    text-decoration: none;
+}
+
+div.refLink a:hover{
+    color: #83FFEB;
+}
+h2.title {
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+}
+table.returnlist{
+    width:80%;
+    margin: 20px;
+}
+table.returnlist, th, td{
+    border-collapse: collapse;
+    border: 1px solid black;
+    text-align: center;
+}
+table.returnlist th, table.returnlist td{
+    padding: 10px;
+}
+table.returnlist input.button{
+    border: 1px solid #C4E1F1;
+    border-radius: 25px;
+    background-color: #C4E1F1;
+    padding: 5px;
+}
+table.returnlist input.button:hover{
+    border: 1px solid rgb(56, 184, 253);
+    border-radius: 25px;
+    background-color: rgb(26, 175, 255);
+    padding: 5px;
+}

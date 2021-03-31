@@ -1,0 +1,79 @@
+#login {
+    background-image: url(../img/background.jpg);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom:0;
+    margin: auto;
+    width: 900px;
+    height: 500px;
+    box-shadow: 10px 10px 25px black;
+}
+#login #design{
+    width:60%;
+    height: 100%;
+    float: left;
+}
+#login #design h1{
+    margin: 70px 0px 70px 40px;
+    font-size: 40px;
+    font-weight: normal;
+    color: black;
+    text-shadow: 1px 1px 5px rgb(255, 255, 255);
+}
+#login #design img{
+  position: absolute;
+  margin: 50px 0px 20px 20px;
+  width: 300px;
+  height: 125px;
+  bottom: 0px;
+}
+#login #loginForm{
+    width:40%;
+    height: 100%;
+    float: left;
+    background-color: white;
+}
+#login #loginForm h2{
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+#login #loginForm input, p{
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    font-size: 18px;
+}
+#login #loginForm input{
+    width:250px;
+    height: 30px;
+    background-color: #D4D4D4;
+    border: 1px solid #D4D4D4;
+    border-radius: 3px;
+}
+#login #loginForm input.login{
+    display: block;
+    height: 40px;
+    margin-top: 30px;
+    border-radius: 25px;
+    border: 1px solid grey;
+    background-color: #83FFEB;
+}
+#login #loginForm input.login:hover{
+    filter: brightness(120%);
+    transition: 0.7s;
+}
+#login #loginForm #noacc{
+    display:inline-block;
+    margin-top: 50px;
+    margin-right: 25px;
+    font-size: 16px;
+}
+#login #loginForm a{
+    display: inline;
+    text-decoration: none;
+    color: #FD9292;
+    font-size: 16px;
+}

@@ -1,0 +1,70 @@
+div.refLink h2{
+    font-size: 28px;
+    text-align: center;
+}
+div.refLink a, div.refLink p{
+    padding-left: 10px;
+    display: inline;
+    text-decoration: none;
+}
+
+div.refLink a:hover{
+    color: #83FFEB;
+}
+h2.title{
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+}
+div.search-bar{
+    display: block;
+    width: 100%;
+    margin: auto;
+    margin-bottom:100px;
+    text-align: center;
+}
+
+div.search-bar input{
+    height:45px;
+    font-size: 16px;
+    margin: auto;
+    width:30%;
+}
+div.search-bar img{
+    width:10%;
+    height: 20px;
+}
+div.inventorylist{
+    display: inline-block;
+    width: 100%;
+    margin: 0px 20px;
+    overflow: hidden;
+}
+div.inventorylist table{
+    margin: auto;
+    margin-bottom: 200px;
+}
+div.inventorylist table, div.inventorylist th, div.inventorylist td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+div.inventorylist th, div.inventorylist td{
+    font-size: 16px;
+    padding: 10px;
+}
+div.inventorylist input.select{
+    width: 100%;
+    border: 1px solid #C4E1F1;
+    border-radius: 25px;
+    background-color: #C4E1F1;
+    padding: 5px;
+    margin: auto;
+}
+div.inventorylist input.select:hover{
+    width: 100%;
+    border: 1px solid rgb(56, 184, 253);
+    border-radius: 25px;
+    background-color: rgb(56, 184, 253);
+    padding: 5px;
+    margin: auto;
+}

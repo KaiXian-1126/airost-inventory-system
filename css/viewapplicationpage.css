@@ -1,0 +1,77 @@
+.refLink h2{
+    font-size: 28px;
+    text-align: center;
+}
+div.refLink a, div.refLink p{
+    padding-left: 10px;
+    display: inline;
+    text-decoration: none;
+}
+
+.refLink a:hover{
+    color: #83FFEB;
+}
+h2.title{
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+}
+div.management-sidebar{
+    width: 25%;
+    display: inline-block;
+}
+div.management-sidebar input{
+    display: block;
+    font-size: 16px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 5px;
+}
+div.management-sidebar input:first-child{
+    background-color: rgb(255, 133, 117);
+}
+div.management-sidebar input:first-child:hover{
+    background-color: rgb(255, 80, 56);
+}
+div.management-sidebar input:nth-child(2):hover, div.management-sidebar input:nth-child(3):hover{
+    background-color: rgb(255, 133, 117);
+}
+div.myapplist{
+    width: 60%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 20px;
+    overflow: hidden;
+}
+div.myapplist table{
+    width:90%;
+    margin: auto;
+    margin-bottom: 200px;
+}
+div.myapplist table, div.myapplist th, div.myapplist td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+div.myapplist th, div.myapplist td{
+    font-size: 16px;
+    padding: 10px;
+}
+div.myapplist input.submit{
+    width: 100%;
+    border: 1px solid #C4E1F1;
+    border-radius: 25px;
+    background-color: #C4E1F1;
+    padding: 5px;
+    margin: auto;
+}
+div.myapplist input.submit:hover{
+    width: 100%;
+    border: 1px solid rgb(56, 184, 253);
+    border-radius: 25px;
+    background-color: rgb(56, 184, 253);
+    padding: 5px;
+    margin: auto;
+}
+

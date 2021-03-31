@@ -1,0 +1,168 @@
+
+div.refLink h2{
+    font-size: 28px;
+    text-align: center;
+}
+div.refLink a, div.refLink p{
+    padding-left: 10px;
+    display: inline;
+    text-decoration: none;
+}
+
+.refLink a:hover{
+    color: #83FFEB;
+}
+div.form{
+    width: 800px;
+    margin: auto;
+    background-image: linear-gradient(to bottom, rgba(115, 132, 172, 0.8), rgba(221, 226, 236, 0.3));
+    padding-bottom: 200px;
+}
+div.form input.back{
+    margin: 20px;
+    width: 100px;
+    border-radius: 25px;
+    border: 1px solid black;
+    background-color: #C4E1F1;
+}
+div.form input.back:hover{
+    background-color: rgb(114, 206, 255);
+}
+div.form h2{
+    text-align: center;
+    padding: 0px 20px 20px 20px;
+}
+
+div.form div.grid_container{
+    display: grid;
+    grid-template-columns: 1.3fr 1fr 1fr;
+    grid-template-rows: repeat(20, 1fr);
+    padding: 20px;
+}
+div.form p{
+    padding-left: 50px;
+    position: relative;
+    bottom: 15px;
+    grid-column: 1 / 2;
+}
+div.form input{
+    height: 35px;
+}
+div.form p.name{
+    
+    grid-row: 1 / 2;
+}
+div.form p.applieddate{
+    
+    grid-row: 2 / 3;
+}
+div.form p.itemborrow{
+    
+    grid-row: 3 / 4;
+}
+div.form p.quantity{
+    
+    grid-row: 4 / 5;
+}
+div.form p.borrowdate{
+    
+    grid-row: 5 / 6;
+}
+div.form p.returndate{
+    
+    grid-row: 6 / 7;
+}
+div.form p.description{
+    grid-row: 7 / 10;
+}
+div.form p.approver{
+    grid-row: 10 / 11;
+}
+div.form p.approveddate{
+    grid-row: 11 / 12;
+}
+div.form p.returnamount{
+    grid-row: 12 / 13;
+}
+div.form p.loss{
+    grid-row: 13 / 14;
+}
+div.form p.lossreason{
+    grid-row: 14 / 17;
+}
+div.form p.date{
+    grid-row: 17 / 18;
+}
+
+div.form p{
+    padding-left: 50px;
+    position: relative;
+    bottom: 15px;
+    grid-column: 1 / 2;
+}
+div.form input, div.form textarea{
+    height: 35px;
+    grid-column: 2 / 3;
+}
+div.form input.name{
+    
+    grid-row: 1 / 2;
+}
+div.form input.applieddate{
+    
+    grid-row: 2 / 3;
+}
+div.form input.itemborrow{
+    
+    grid-row: 3 / 4;
+}
+div.form input.quantity{
+    
+    grid-row: 4 / 5;
+}
+div.form input.borrowdate{
+    
+    grid-row: 5 / 6;
+}
+div.form input.returndate{
+    
+    grid-row: 6 / 7;
+}
+div.form textarea.description{
+    resize: none;
+    height: 150px;
+    grid-row: 7 / 10;
+}
+div.form input.approver{
+    grid-row: 10 / 11;
+}
+div.form input.approveddate{
+    grid-row: 11 / 12;
+}
+div.form input.returnamount{
+    grid-row: 12 / 13;
+}
+div.form input.loss{
+    grid-row: 13 / 14;
+}
+div.form textarea.lossreason{
+    resize: none;
+    
+    height: 150px;
+    grid-row: 14 / 17;
+    margin-bottom: 20px;
+}
+div.form input.date{
+    grid-row: 17 / 18;
+}
+div.form input.submit{
+    grid-column: 3 / 4;
+    grid-row: 19 / 20;
+    width: 100px;
+    margin-left: 25px;
+    border: 1px solid black;
+    border-radius: 25px ;
+}
+div.form input.submit:hover{
+    background-color: #83FFEB;
+}

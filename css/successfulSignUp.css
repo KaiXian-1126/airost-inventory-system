@@ -1,0 +1,15 @@
+
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+    padding: 50px;
+}
+a{
+    text-decoration: none;
+    color: rgb(233, 233, 233);
+}
+a:hover{
+    color: #83FFEB;
+}
